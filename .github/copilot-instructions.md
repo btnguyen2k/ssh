@@ -10,6 +10,14 @@ It is MIT licensed (`LICENSE`, © Thanh Ba Nguyen).
 > yet. The conventions below are guidance for adding the first scripts; update
 > this file as real structure, tooling, and commands are introduced.
 
+## Audience & documentation style
+
+The reader/user is a **senior system administrator**. Keep `README.md` short and
+concise — focus on the high-level business logic (what each script does and
+why). Do **not** include detailed run instructions, usage examples, or
+step-by-step command walkthroughs; assume the reader knows how to run scripts.
+Prefer one-liner step summaries over verbose explanations.
+
 ## Conventions for new scripts
 
 Since this repo is about server setup/hardening, prefer:
