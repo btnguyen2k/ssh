@@ -18,6 +18,14 @@ Steps:
 
 Installs and configures Podman, with rootless support and auto-start on boot.
 
+### `ubuntu/firewall_ufw_ports.sh`
+
+Prompts for a list of ports and opens them for incoming traffic via UFW. Rules persist across reboots.
+
+### `ubuntu/firewall_iptables_ports.sh`
+
+Same as above but uses iptables, persisting rules via iptables-persistent.
+
 ## License
 
 MIT — see [LICENSE.md](LICENSE.md).
