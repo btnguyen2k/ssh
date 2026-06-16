@@ -14,6 +14,10 @@ Steps:
 2. Disable remote root SSH login.
 3. Change the SSH port.
 
+### `ubuntu/install_podman.sh`
+
+Installs and configures Podman, with rootless support and auto-start on boot.
+
 ## License
 
 MIT — see [LICENSE.md](LICENSE.md).
